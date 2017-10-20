@@ -2,4 +2,85 @@ body {
   background-image: url("../images/design-backgrounds/background2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.content-box {
+  background-color: #292b2d;
+  padding: 50px;
+  border-radius: 4px;
+  display: block;
+  margin: auto;
+  max-width: 50%;
+}
+
+.profile-photo {
+  max-width: 140px;
+  display: block;
+  margin: auto;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+.hr-line {
+  height: 1px;
+  opacity: 0.15;
+  background: -webkit-linear-gradient(left, rgb(140, 140, 140), rgb(255, 255, 255), rgb(140, 140, 140));
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  margin: 1em 0px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+a {
+    transition: color .4s;
+    color: #ffffff;
+}
+a:hover {
+  color: #e2c283;
+}
+
+.social-btn, .btn {
+    display: inline-block;
+    border: 1px solid;
+    border-color: rgba(140,140,140,0.5) rgba(140,140,140,0.5) #afafaf;
+    border-radius: 3px;
+    text-decoration: none;
+    background: #292b2d;
+    color: #fff;
+}
+
+.social-btn {
+    padding: 10px;
+    margin: 10px;
 }
